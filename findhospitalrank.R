@@ -5,7 +5,7 @@ findhospitalrank <- function(hospital){
     mydata <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
     # Check to make sure the hospital passed isn't NA/NULL/numeric()
     if(is.na(hospital) | is.numeric(hospital)){
-        stop("Inproper datatype")
+        stop("Improper datatype")
     }
     # Convert the hospital name given to all uppercase
     hospital <- toupper(hospital)
