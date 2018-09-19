@@ -16,7 +16,7 @@ rankhospital.R returns the name of the hospital with a certain rank for an outco
 The only possible outcomes are "heart attack", "heart failure", and "pneumonia". The state given must be abbreviated and capitalized, for example: Pennsylvania is "PA".
 
 ## rankall.R
-rankall.R returns the hospitals with a particular rank in all states for a particular outcome. It utilizes rankhospital.R to has the same parameter structure as rankhospital.R.
+rankall.R returns the hospitals with a particular rank in all states for a particular outcome. It utilizes rankhospital.R and has the same parameter structure as rankhospital.R.
 
 ## findhospitalrank.R
 findhospitalrank.R returns the ranks of each outcome for a given hospital. For example: "Hopkins" will return all hospitals with "Hopkins" in their name, along with where they rank for heart attacks, heart failures, and pneumonia.
